@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS Run (
+    RollNo INT UNIQUE NOT NULL,
+    Name VARCHAR(250) NOT NULL,
+    Status VARCHAR(7) NOT NULL,
+    TotalPresent INT NOT NULL,
+    TotalAbsent INT NOT NULL,
+    PRIMARY KEY(RollNo)
+);
